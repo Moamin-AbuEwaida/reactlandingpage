@@ -1,4 +1,5 @@
 import { Layout } from "./components/Layout"
+import Hero from "./components/sections/Hero"
 
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
 
   return (
     <>
-      <Layout title="test"></Layout>
+      <Layout title="EgdeAi">
+        <Hero />
+      </Layout>
 
     </>
   )
