@@ -1,3 +1,4 @@
+import { Layout } from "./components/Layout"
 
 
 function App() {
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <>
-      <div>
-        <div class="text-green-300">Hello</div>
-      </div>
+      <Layout title="test"></Layout>
 
     </>
   )
