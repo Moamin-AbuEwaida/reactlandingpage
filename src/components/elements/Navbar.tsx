@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../shared/Container'
-import Logo from '../../../public/assets/icon.svg'
+import Logo from '/assets/icon.svg'
 import { NavItem } from '../shared/NavItem'
 import { BtnLink } from '../shared/BtnLink'
 import { useThemeStore } from '../../store/ThemeStore'
