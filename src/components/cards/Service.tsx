@@ -1,13 +1,12 @@
 import { Paragraph } from "../shared/Paragraph";
 
 interface ServiceProps {
-
     title: string;
     description: string;
-    icon: string
+    icon: React.ReactNode;
 }
 
-export const Service = ({ title, description, icon, }: ServiceProps) => {
+export const Service = ({ title, description, icon }: ServiceProps) => {
     return (
         <div className='p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden'>
             <div className="rounded-xl bg-body dark:bg-gray-950 p-3 text-heading-1 w-max relative">
