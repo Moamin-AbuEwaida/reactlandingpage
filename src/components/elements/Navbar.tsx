@@ -4,7 +4,8 @@ import Logo from '/assets/icon.svg'
 import { NavItem } from '../shared/NavItem'
 import { BtnLink } from '../shared/BtnLink'
 import { useThemeStore } from '../../store/ThemeStore'
-const navItems = [
+
+export const navItems = [
     { href: '#', text: 'Home' },
     { href: '#services', text: 'Services' },
     { href: '#about-us', text: 'About Us' },
