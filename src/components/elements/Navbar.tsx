@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container } from '../shared/Container'
 import Logo from '/assets/icon.svg'
 import { NavItem } from '../shared/NavItem'
